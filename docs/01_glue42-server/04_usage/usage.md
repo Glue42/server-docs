@@ -6,7 +6,7 @@ The Admin UI enables you to manage the data stored in the Glue42 Server more eas
 
 The "Dashboard" is the entry page that allows quick access to other pages.
 
-![Dashboard](../../../images/glue42-server/admin-ui-dashboard.png)
+![Dashboard](../../images/glue42-server/admin-ui-dashboard.png)
 
 ### Applications
 
@@ -14,19 +14,19 @@ The "Applications" section allows you to:
 
 - see a list of all apps:
 
-![All Apps](../../../images/glue42-server/admin-ui-apps.png)
+![All Apps](../../images/glue42-server/admin-ui-apps.png)
 
 - see apps that are available to a specific user group:
 
-![Apps by Group](../../../images/glue42-server/admin-ui-apps-by-group.png)
+![Apps by Group](../../images/glue42-server/admin-ui-apps-by-group.png)
 
 - see apps that are available to a specific user:
 
-![Apps by User](../../../images/glue42-server/admin-ui-apps-by-user.png)
+![Apps by User](../../images/glue42-server/admin-ui-apps-by-user.png)
 
 - import new apps:
 
-![Apps Import](../../../images/glue42-server/admin-ui-apps-import.png)
+![Apps Import](../../images/glue42-server/admin-ui-apps-import.png)
 
 ### Layouts
 
@@ -34,21 +34,21 @@ The "Layouts" section allows you to:
 
 - see a list of all Layouts:
 
-![Layouts](../../../images/glue42-server/admin-ui-layouts.png)
+![Layouts](../../images/glue42-server/admin-ui-layouts.png)
 
 - see Layouts that are available to a specific user group:
 
-![Layouts by Group](../../../images/glue42-server/admin-ui-layouts-by-group.png)
+![Layouts by Group](../../images/glue42-server/admin-ui-layouts-by-group.png)
 
 - import new Layouts:
 
-![Layouts Import](../../../images/glue42-server/admin-ui-layouts-import.png)
+![Layouts Import](../../images/glue42-server/admin-ui-layouts-import.png)
 
 ### Desktop Configs
 
 The "Desktop Configs" section allows you to add, edit and remove different versions of the [configuration files](https://docs.glue42.com/developers/configuration/overview/index.html) for [**Glue42 Enterprise**](https://glue42.com/enterprise/). The remote configurations provided here will be merged with the locally available ones when [**Glue42 Enterprise**](https://glue42.com/enterprise/) is initialized.
 
-![Desktop Configs](../../../images/glue42-server/admin-ui-configs.png)
+![Desktop Configs](../../images/glue42-server/admin-ui-configs.png)
 
 *For more details on how to enable [**Glue42 Enterprise**](https://glue42.com/enterprise/) to fetch configurations from a remote location, see the [How to Rebrand Glue42 Enterprise > Functionality > Remote Configurations](https://docs.glue42.com/getting-started/how-to/rebrand-glue42/functionality/index.html#remote_configurations) section.*
 
@@ -58,31 +58,31 @@ Use the "Select Version and Config" panel on the left to add different [**Glue42
 
 The following demonstrates creating a specific version of the `system.json` file which contains a setting for disabling the [hotkeys](https://docs.glue42.com/glue42-concepts/glue42-platform-features/index.html#hotkeys) functionality of [**Glue42 Enterprise**](https://glue42.com/enterprise/). This version is automatically merged with the `system.json` file from an already existing version named `*`, in which there is a setting for disabling the "Restart" entry in the tray icon menu:
 
-![Adding Configs](../../../images/glue42-server/admin-ui-adding-configs.gif)
+![Adding Configs](../../images/glue42-server/admin-ui-adding-configs.gif)
 
 ### Users
 
 The "Users" section allows you to see all users that have connected to the server:
 
-![Users](../../../images/glue42-server/admin-ui-users.png)
+![Users](../../images/glue42-server/admin-ui-users.png)
 
 ### Sessions
 
 The "Sessions" section allows you to monitor all user sessions:
 
-![Sessions](../../../images/glue42-server/admin-ui-sessions.png)
+![Sessions](../../images/glue42-server/admin-ui-sessions.png)
 
 ### Commands
 
 The "Commands" section allows you to send commands to a specific user session:
 
-![Commands](../../../images/glue42-server/admin-ui-commands.png)
+![Commands](../../images/glue42-server/admin-ui-commands.png)
 
 ### Feedback
 
 The "Feedback" section allows you to see a list of all feedback items submitted by the users:
 
-![Feedback](../../../images/glue42-server/admin-ui-feedback.png)
+![Feedback](../../images/glue42-server/admin-ui-feedback.png)
 
 ## How to...
 
